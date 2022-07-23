@@ -5,8 +5,6 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 
-import javax.management.RuntimeErrorException;
-
 public class ClienteHttp {
 
     public String buscaDados(String url) {

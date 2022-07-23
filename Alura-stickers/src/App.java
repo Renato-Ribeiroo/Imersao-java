@@ -7,8 +7,11 @@ public class App {
 
         // Fazer uma conexão http e bucar os top 250 filmes 
         // String url = "https://imdb-api.com/en/API/Top250Movies/k_0ojt0yvm";
-        String url = "https://api.mocki.io/v2/549a5d8b"; // usando endereço alternativo
-        ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB(); 
+        // String url = "https://api.mocki.io/v2/549a5d8b"; // usando endereço alternativo
+        // ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB(); 
+
+        String url = "http://localhost:8080/linguagens"; // usando endereço da api criada
+        ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB();
 
         // String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
         // String url = "https://raw.githubusercontent.com/alura-cursos/imersao-java/api/NASA-APOD.json";
@@ -22,7 +25,7 @@ public class App {
         List<Conteudo> conteudos = extrator.extraiConteudos(json);
 
         var geradora = new GeradoraDeFigurinhas();
-         for (int i = 0; i < 3; i++) {
+         for (int i = 0; i < 2; i++) {
 
             Conteudo conteudo = conteudos.get(i);       
     
