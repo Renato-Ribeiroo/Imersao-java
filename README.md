@@ -14,7 +14,7 @@ Ela utiliza o o Java 17 com o Spring Boot para fazer uma REST API que retorna um
 
 - To get data: \
     Open the Api in /languages:\
-    https://renato-api-languages.herokuapp.com/languages
+    https://renato-linguagens-api.herokuapp.com/linguagens
 
 - To record an new language:\
     Open the Api in `/languages` but using the `POST` Http method.
