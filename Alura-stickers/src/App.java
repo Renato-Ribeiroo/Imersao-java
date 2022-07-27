@@ -10,7 +10,8 @@ public class App {
         // String url = "https://api.mocki.io/v2/549a5d8b"; // usando endereço alternativo
         // ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB(); 
 
-        String url = "http://localhost:8080/linguagens"; // usando endereço da api criada
+        // String url = "http://localhost:8080/linguagens"; // usando endereço da api criada
+        String url = "https://renato-linguagens-api.herokuapp.com/linguagens";
         ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB();
 
         // String url = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
